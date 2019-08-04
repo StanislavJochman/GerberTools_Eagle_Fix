@@ -3,5 +3,5 @@ GerberTools Eagle fix is small project which I developed for use with [Paneliser
 
 ## How to use it
 1. place `eagle_gerber_fix.py` in same folder as `CAMOutputs`. 
-2. Run `eagle_gerber_fix`.
+2. Run `eagle_gerber_fix.py`.
 3. Done. Yours files were renamed and you can place them into [Paneliser](https://github.com/ThisIsNotRocketScience/GerberTools/releases)

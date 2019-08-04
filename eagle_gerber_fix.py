@@ -4,6 +4,7 @@ import shutil
 def renameFile(input_file,extension):
     try:
         os.rename("CAMOutputs/"+input_file,"CAMOutputs/"+extension)
+        print("{} renamed to {}.".format(input_file,extension))
     except:
         print("{} is missing.".format(input_file))
 
@@ -33,7 +34,7 @@ renameFile("copper_top.gbr","copper_top.gtl")
 renameFile("silkscreen_top.gbr","silkscreen_top.gto")
 renameFile("soldermask_top.gbr","soldermask_top.gts")
 renameFile("solderpaste_top.gbr","solderpaste_top.gtp")
-
+renameFile("profile.gbr","profile.gko")
 
 
 

@@ -34,7 +34,9 @@ renameFile("copper_top.gbr","copper_top.gtl")
 renameFile("silkscreen_top.gbr","silkscreen_top.gto")
 renameFile("soldermask_top.gbr","soldermask_top.gts")
 renameFile("solderpaste_top.gbr","solderpaste_top.gtp")
-renameFile("profile.gbr","profile.gko")
+renameFile("solderpaste_bottom.gbr","solderpaste_bottom.gbp")
+renameFile("profile.gbr","profile.gbp")
+
 
 
 
